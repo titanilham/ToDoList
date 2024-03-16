@@ -8,8 +8,19 @@
 
 
 
-### Preview: 
- ![]()
+### Preview:
+
+![](https://github.com/titanilham/My-site/blob/main/src/Sign%20in.png?raw=true)
+
+![](https://github.com/titanilham/My-site/blob/main/src/Choice.png?raw=true)
+
+![](https://github.com/titanilham/My-site/blob/main/src/Notes.png?raw=true)
+
+![](https://github.com/titanilham/My-site/blob/main/src/To-Do.png?raw=true)
+
+![](https://github.com/titanilham/My-site/blob/main/src/Archive.png?raw=true)
+  
+ 
 
 <a href="https://65f56bf3db1002a01e898f76--tranquil-muffin-01e292.netlify.app/">Link to the site</a>
 
