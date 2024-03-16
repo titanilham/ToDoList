@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono|Montserrat:700");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+body {
+    background: #1E1E1E;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+div {
+    
+    width: 70vw;
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    padding: 30px 30px 10px;
+    box-shadow: 0 0 150px -20px rgba(0, 0, 0, 0.76);
+    z-index: 3;
+    border-radius: 8px;
+    
+}
+
+P {
+    font-family: "Share Tech Mono", monospace;
+    color: #f5f5f5;
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 1.2;
+}
+
+span {
+    color: #9CDCFE;
+}
+
+i {
+    color: #f3a33a;
+}
+
+
+a{
+    color: rgba(82, 143, 255, 0);
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Oxygen:wght@300;400;700&family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Viga&display=swap');
+
+/* Electrolize Viga Oxygen */
+
+body {
+    font-family: "Oxygen";
+    background: url("https://images.wallpapershq.com/wallpapers/8157/wallpaper_8157_3840x2160.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #00000075;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.651);
+    
+    
+    
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Учитываем padding в ширине элемента */
+    background-color: #0000002d;
+    border-radius: 10px;
+    color: rgb(226, 225, 225);
+    
+    
+}
+textarea:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+textarea::placeholder {
+    color: rgb(179, 179, 179);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff8800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Oxygen";
+}
+
+button:hover {
+    background-color: #b66100;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-bottom: 10px; /* Добавляем отступ снизу для разделения линией */
+    border-bottom: 1px solid #ccc; /* Добавляем линию между заметками */
+} 
+
+.delete-button {
+    color: red;
+    cursor: pointer;
+    margin-left: auto;
+    border: none;
+    background: none;
+}
+
+
+a{
+    color: rgba(0, 0, 0, 0);
+}
+
+
+
+.head{
+
+    font-family: "Electrolize";
+    text-align: center;
+    color: #fff8f0;
+
+}
+
+#noteList{
+
+    color: rgb(231, 231, 231);
+
+}

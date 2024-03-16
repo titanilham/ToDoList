@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Oxygen:wght@300;400;700&family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Viga&display=swap');
+
+
+/* Electrolize  Viga Oxygen */
+
+body {
+  
+    font-family: "Oxygen";
+    background: url("https://r4.wallpaperflare.com/wallpaper/912/256/892/landscape-forest-deer-artwork-wallpaper-19d0082d01fa2debd647a8df70a166fd.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #61ace9;
+  }
+  
+  .login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.329);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.575);
+    /* rgba(255, 255, 255, 0.301) */
+  }
+  
+  /* #00000052 */
+
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .input-group {
+    margin-bottom: 30px;
+    
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    
+  }
+  
+  .input-group input {
+    width: 95.5%;
+    padding: 8px;
+    border: 1px solid #0000002a;
+    border-radius: 5px;
+    background-color: #00000028;
+    color: rgb(76, 78, 80);
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b98d1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2982b9;
+    transform: scale(1.015);
+  }
+  
+  .lab{
+    
+    cursor: default;
+    
+    
+  }
+
+  .head{
+    font-family: "Electrolize";
+    cursor: default;
+  }
+  
+  .button_text{
+
+    font-family: "Oxygen";
+
+  }
+ 
+  input {
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+    
+  }
+  input:focus {
+    outline: #4691e2d2;
+    border-color: #4691e2d2;
+  } 
+  input::placeholder{
+
+    color: #0000005d;
+
+  }

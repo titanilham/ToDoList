@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Oxygen:wght@300;400;700&family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Viga&display=swap');
+
+
+/* Electrolize  Viga Oxygen */
+
+body {
+    font-family: "Oxygen";
+    margin: 20px;
+    color: white;
+    
+    background: url("https://r4.wallpaperflare.com/wallpaper/535/845/69/digital-art-artwork-fantasy-art-planet-sun-hd-wallpaper-d866fd38b0b06cd800cc016ed8d284fa.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+    /* Scroll */
+
+    scrollbar-width: thin;
+    scrollbar-color: #337ab7 black;
+
+}
+
+h1 {
+    text-align: center; /* Выравниваеm надпись по центру */
+}
+
+.head{
+
+    font-family: "Electrolize";
+    cursor: default;
+    font-size: 300%;
+
+}
+
+.container {
+    display: flex; 
+    flex-direction: column; /* Располагаеm элементы вертикально */
+    align-items: center; /* Центрируеm элементы по горизонтали */
+    background: rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.575);
+    
+}
+
+
+
+#fileInput {
+    display: none; /* Скрываеm поле выбора файла */
+}
+
+.gallery {
+    text-align: center; /* Центрируеm содержимое галереи */
+}
+
+.photo-container {
+    margin: 100px 0; /* Увеличиваеm вертикальный отступ между фотографиями */
+    position: relative; /* Позиционируеm кнопки удаления относительно контейнера */
+}
+
+.photo-container img {
+    max-width: 300px; /* Задаеm максимальную ширину для изображений */
+    max-height: 300px; /* Задаеm максимальную высоту для изображений */
+    border: none; /* Убираеm рамку */
+    cursor: pointer; /* Делаеm указатель при наведении на изображение */
+    transition: transform 0.2s; /* Добавляеm плавный переход для анимации */
+}
+
+.photo-container:hover img {
+    transform: scale(1.2); /* Увеличиваеm размер изображения при наведении */
+}
+
+.deleteButton {
+    position: absolute; /* Позиционируеm кнопки удаления абсолютно */
+    bottom: -40px; /* Отступ от нижнего края контейнера */
+    left: 50%; /* Размещаеm кнопки по центру горизонтально */
+    transform: translateX(-50%); /* Сдвигаеm кнопки по горизонтали на половину их ширины */
+}
+
+
+
+button{
+
+    font-size: 110%;
+    width: 50%;
+    padding: 8px;
+    background-color: #dd3f3f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+button:hover{
+
+    background-color: #af2b2b;
+   
+
+}
+
+.upload-label{
+    cursor: pointer;
+    text-align: center;
+    
+    
+}
+.button1{
+
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 8px;
+    line-height: 30px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    
+}
+
+.button1:hover{
+
+    background-color: #266ba8;
+    transform: scale(1.2);
+}
+
