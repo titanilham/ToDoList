@@ -22,7 +22,7 @@
   
  
 
-<a href="https://to-dol1st.netlify.app/">Link to the site</a>
+<a href="https://to-do-l1stt.netlify.app/">Link to the site</a>
 
 ### Password and user name in config.json
 
