@@ -10,8 +10,6 @@
 
 ### Preview:
 
-![](https://github.com/titanilham/My-site/blob/main/src/Sign%20in.png?raw=true)
-
 ![](https://github.com/titanilham/My-site/blob/main/src/Choice.png?raw=true)
 
 ![](https://github.com/titanilham/My-site/blob/main/src/Notes.png?raw=true)
