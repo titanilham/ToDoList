@@ -3,6 +3,7 @@
 ### Languages:
 
 * JavaScript <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/120px-JavaScript-logo.png" width="15" height="15"/>
+* TypeScript <img src="https://camo.githubusercontent.com/54ccaaace978746e1e508be18b8ebbcbb7c11d3d32a77851753572d9021db017/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f4070726f6772616d6d696e672d6c616e6775616765732d6c6f676f732f7479706573637269707440302e302e302f747970657363726970745f323536783235362e706e67" width="15" />
 * Html <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original.svg" width="15" height="15"/>
 * Css <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original.svg" width="15" height="15"/>
 
