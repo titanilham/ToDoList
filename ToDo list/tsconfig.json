@@ -6,6 +6,6 @@
       "strict": true,
       "esModuleInterop": true
     },
-    "include": ["./src/**/*"]
+    "include": ["./src/**/*", "login.ts"]
   }
   
